@@ -14,13 +14,13 @@ The analysis aims to make a smooth transition for the company from the high volu
 - The title "Senior Engineer" has the highest retiring count.
 - The title "Senior Staff" has the second highest retiring count.
 - The title "Manager" has the lowest retiring count.
-      Note:  refer to Table 1 below
+Note:  the above observations are based on Table 1.    
+- Most of the eligible employees have senior and other leadership positions (Table 2).
 
 ###   Table 1:  Retiring titles
 
 ![Screen Shot 2022-09-09 at 12 06 25 PM](https://user-images.githubusercontent.com/108419097/189393688-8152ae14-8afc-4938-a09a-ef76ace605be.png)
 
-- Most of the eligible employees have senior and other leadership positions (table 2).
 
 ### Table 2:  Mentorship eligibility
 
@@ -56,7 +56,7 @@ The number of retired employees (72,458, see table 3 below) is much higher than 
 
 ![Screen Shot 2022-09-09 at 1 36 01 PM](https://user-images.githubusercontent.com/108419097/189411176-8a6f74c3-0ee1-4316-ac65-462c7ed6d0d2.png)
 
-The titles "Staff" and "Senior Engineer" account for 413 each (Table 4).  however, it is far from the numbers the same titles about to be retired (Table 1).  
+The titles "Staff" and "Senior Engineer" account for 413 each (Table 4).  however, it is far from the numbers of the same titles about to be retired (Table 1).  
 
 
 
