@@ -29,14 +29,32 @@ The analysis aims to make a smooth transition for the company from the high volu
 
 ## 3. Summary:
 
-The number of retired employees (72,458) is much higher than the count of people eligible for mentorship (1,499).  At a minimum, at least 70% of roles will need to fill as the "silver tsunami" retires.  However, looking at the current workforce, there aren't enough people to fill vacancies, let alone people with the right qualifications and training.
+The number of retired employees (72,458, see table 1 below) is much higher than the count of people eligible for mentorship (1,549).  At a minimum, at least 70% of roles will need to fill as the "silver tsunami" retires.  However, looking at the current workforce, there aren't enough people to fill vacancies, let alone people with the right qualifications.
+
+#### Query 1:
 
       -- total count of the people retired:
       SELECT SUM (rt.count) AS "total retired number"
       FROM retiring_titles AS rt;
 
-### The total retired number
+#### Table 1: The total retired number
 
 ![Screen Shot 2022-09-09 at 1 24 41 PM](https://user-images.githubusercontent.com/108419097/189409321-3958fd6c-b7ef-48cf-9707-86400fcdeb3b.png)
+
+
+#### Query 2: 
+
+      -- sort mentee by title:
+      SELECT COUNT(me.title) AS "count",
+            me.title
+      INTO mentee_titles
+      FROM mentorship_eligibility AS me
+      GROUP BY me.title
+      ORDER BY count DESC;
+
+#### Table 2: Retrieve the numbers of eligible mentee by their job title
+
+![Screen Shot 2022-09-09 at 1 36 01 PM](https://user-images.githubusercontent.com/108419097/189411176-8a6f74c3-0ee1-4316-ac65-462c7ed6d0d2.png)
+
 
 
